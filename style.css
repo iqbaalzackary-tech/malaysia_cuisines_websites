@@ -129,3 +129,100 @@ footer {
     color: white;
     font-size: 14px;
 }
+
+/* Cuisine */
+/* Dish Hero */
+.dish-hero {
+    position: relative;
+    text-align: center;
+}
+
+.dish-hero img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.dish-hero h1 {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+    font-size: 48px;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+}
+
+.dish-hero p {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffd700;
+    font-size: 16px;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+    white-space: nowrap;
+}
+
+/* Dish Content */
+.dish-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Each Section */
+.dish-section {
+    margin-bottom: 40px;
+    border-bottom:  1px solid #eee;
+    padding-bottom: 40px;
+}
+
+.dish-section h2 {
+    font-size: 28px;
+    color: #8b0000;
+    margin-bottom: 15px;
+}
+
+.dish-section h2 {
+    font-size: 28px;
+    color: #8b0000;
+    margin-bottom: 15px;
+}
+
+.dish-section h3  {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px 0 10px;
+}
+
+.dish-section p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #555;
+}
+
+.dish-section ul, .dish-section ol {
+    padding-left: 20px;
+    margin-top: 10px;
+    color: #555;
+    font-size: 15px;
+    line-height: 2;
+}
+
+/* back button */
+.back-btn {
+    max-width: 800px;
+    margin:: 20px auto 0;
+    padding: 0 20px;
+}
+
+.back-btn a {
+    color: #8b0000
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.back-btn a:hover {
+    text-decoration: underline;
+}
