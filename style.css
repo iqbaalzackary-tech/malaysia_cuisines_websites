@@ -271,3 +271,43 @@ footer {
     background-color: #ffd700;
     color: #333;
 }
+
+/* Tablet - 2 columns */
+@media (max-width: 900px) {
+    .food-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile - 1 coumn */
+@media (max-width: 600px) {
+    .food-list {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .greetings h2 {
+        font-size: 24px;
+    }
+
+    .greetings p {
+        font-size: 14px;
+    }
+
+    nav {
+        padding: 10px 15px;
+        gap: 15px;
+    }
+
+    .logo {
+        height: 50px;
+    }
+
+    .dish-hero h1 {
+        font-size: 28px;
+    }
+
+    .dish-content {
+        padding: 20px 15px;
+    }
+}
